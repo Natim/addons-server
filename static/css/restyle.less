@@ -1013,8 +1013,15 @@ button.good {
   color: @link-on-white-bg;
 }
 
-.previews {
+.restyle .previews {
   background: #f5f5f5;
+  margin-left: ~"calc(-1 * ((100vw - 100%) / 2))";
+  padding: 30px 0;
+  width: 100vw;
+
+  .control {
+    background: none;
+  }
 }
 
 // lightbox
